@@ -15,7 +15,7 @@ export default function App() {
           <Text style={styles.title}>Core Components Screen</Text>
           <Text style={styles.intro}>
             This screen keeps the structure simple so you can focus on core components before lesson 05
-            styling work.
+            styling work. Testing to see if editing works.
           </Text>
 
           <View style={styles.section}>

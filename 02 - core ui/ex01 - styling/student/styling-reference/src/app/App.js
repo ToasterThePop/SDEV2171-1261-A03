@@ -18,17 +18,17 @@ export default function App() {
             <Text style={styles.title}>Styled Core UI Screen</Text>
             <Text style={styles.intro}>
               This screen uses the lesson-04 structure, but improves readability with stronger spacing,
-              text hierarchy, and alignment.
+              text hierarchy, and alignment. So far?
             </Text>
 
             <View style={styles.summaryRow}>
               <View style={styles.summaryCard}>
                 <Text style={styles.summaryValue}>3</Text>
-                <Text style={styles.summaryLabel}>Clear sections</Text>
+                <Text style={styles.summaryLabel}>(summary card) Clear sections</Text>
               </View>
               <View style={styles.summaryCard}>
                 <Text style={styles.summaryValue}>1</Text>
-                <Text style={styles.summaryLabel}>Stable layout</Text>
+                <Text style={styles.summaryLabel}>(summary card) Stable layout</Text>
               </View>
             </View>
 
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ece2d1',
     borderWidth: 1,
     borderColor: '#d7c6ae',
-    gap: 4,
+    gap: 4, // gap between items within the summary card
   },
   summaryValue: {
     fontSize: 24,
